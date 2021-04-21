@@ -16,7 +16,7 @@
     "deploy": "arc deploy",
     "package": "arc package",
     "env": "arc env",
-    "remove": "arc destroy",
+    "destroy": "arc destroy",
     "commit": "git-cz",
     "release": "standard-version"
   }

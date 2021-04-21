@@ -24,5 +24,5 @@ $ yarn run package
 $ yarn run env
 
 // remove serverless services in aws
-$ yarn run remove
+$ yarn run destroy
 ```
