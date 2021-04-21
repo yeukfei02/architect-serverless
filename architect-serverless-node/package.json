@@ -1,0 +1,23 @@
+{
+  "name": "architect-serverless-node",
+  "version": "0.1.0",
+  "description": "architect-serverless-node",
+  "license": "MIT",
+  "dependencies": {
+    "@architect/functions": "^3.13.11"
+  },
+  "devDependencies": {
+    "@architect/architect": "^8.5.5",
+    "git-cz": "^4.7.6",
+    "standard-version": "^9.2.0"
+  },
+  "scripts": {
+    "dev": "arc sandbox",
+    "deploy": "arc deploy",
+    "package": "arc package",
+    "env": "arc env",
+    "remove": "arc destroy",
+    "commit": "git-cz",
+    "release": "standard-version"
+  }
+}
