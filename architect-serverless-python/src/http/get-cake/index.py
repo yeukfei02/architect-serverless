@@ -3,7 +3,7 @@ import json
 
 def handler(event, context):
     data = {
-        'message': 'getCake'
+        'message': 'getCakes'
     }
     response = {
         'statusCode': 200,
