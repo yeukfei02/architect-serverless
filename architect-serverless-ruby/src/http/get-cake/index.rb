@@ -1,7 +1,7 @@
 require 'json'
 require 'logger'
 
-def handler
+def handler(event, context)
   logger = Logger.new($stdout)
 
   {
