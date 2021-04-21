@@ -1,5 +1,5 @@
 @app
-architect-serverless-node
+architect-serverless-python
 
 @http
 get /
