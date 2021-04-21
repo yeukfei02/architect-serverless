@@ -1,7 +1,13 @@
 require 'json'
 
-def handler
+def handler(event, context)
   {
-    message: 'main'
+    statusCode: 200,
+    headers: {
+      'content-type': 'application/json'
+    },
+    body: {
+      message: 'main'
+    }.to_json
   }
 end
