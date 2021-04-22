@@ -2,6 +2,10 @@
 
 architect-serverless-ruby
 
+api url (staging): <>
+
+api url (production): <>
+
 ## Requirement
 
 - install ruby (2.7)
@@ -12,11 +16,18 @@ architect-serverless-ruby
 ## Testing and run
 
 ```zsh
+// install ruby dependencies
+$ cd path/to/lambda
+$ bundle install --path vendor/bundle
+
 // test api in local
 $ arc sandbox
 
-// deploy to aws
+// deploy to aws (staging)
 $ arc deploy
+
+// deploy to aws (production)
+$ arc deploy production
 
 // export sam.json
 $ arc package
