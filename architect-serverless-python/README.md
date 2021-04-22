@@ -2,6 +2,10 @@
 
 architect-serverless-python
 
+api url (staging): <>
+
+api url (production): <>
+
 ## Requirement
 
 - install python (3.8)
@@ -14,8 +18,11 @@ architect-serverless-python
 // test api in local
 $ arc sandbox
 
-// deploy to aws
+// deploy to aws (staging)
 $ arc deploy
+
+// deploy to aws (production)
+$ arc deploy production
 
 // export sam.json
 $ arc package
