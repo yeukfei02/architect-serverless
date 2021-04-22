@@ -19,10 +19,10 @@ api url (production): <https://nwqx2fqchh.execute-api.ap-southeast-1.amazonaws.c
 $ yarn run dev
 
 // deploy to aws (staging)
-$ yarn run deploy staging
+$ yarn run deploy:staging
 
 // deploy to aws (production)
-$ yarn run deploy production
+$ yarn run deploy:production
 
 // export sam.json
 $ yarn run package
