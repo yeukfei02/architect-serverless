@@ -15,6 +15,10 @@ api url (production): <>
 ## Testing and run
 
 ```zsh
+// install python dependencies
+$ cd path/to/lambda
+$ pip3 install -r requirements.txt
+
 // test api in local
 $ arc sandbox
 
