@@ -2,6 +2,10 @@
 
 architect-serverless-node
 
+api url (staging): <https://tphutzntz8.execute-api.ap-southeast-1.amazonaws.com>
+
+api url (production): <https://nwqx2fqchh.execute-api.ap-southeast-1.amazonaws.com>
+
 ## Requirement
 
 - install yarn
@@ -14,8 +18,11 @@ architect-serverless-node
 // test api in local
 $ yarn run dev
 
-// deploy to aws
-$ yarn run deploy
+// deploy to aws (staging)
+$ yarn run deploy staging
+
+// deploy to aws (production)
+$ yarn run deploy production
 
 // export sam.json
 $ yarn run package
