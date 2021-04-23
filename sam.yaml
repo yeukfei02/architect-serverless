@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: Exported by architect/package@6.2.0 on 2021-04-23T04:15:56.214Z
+Description: Exported by architect/package@6.2.0 on 2021-04-23T04:21:25.380Z
 Resources:
   HTTP:
     Type: AWS::Serverless::HttpApi
@@ -64,7 +64,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://architect-serverless-cfn-deployments-098ee/8c846534ca537a9140a6a504e53e86cb
+      CodeUri: s3://architect-serverless-cfn-deployments-098ee/23865b7b01063b055a87e3a4460354db
       Runtime: nodejs12.x
       MemorySize: 1152
       Timeout: 5
@@ -98,7 +98,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://architect-serverless-cfn-deployments-098ee/d460289d96f2753544ba304993a1d82d
+      CodeUri: s3://architect-serverless-cfn-deployments-098ee/f9095953a992201700afe25a9fc1719a
       Runtime: nodejs12.x
       MemorySize: 1152
       Timeout: 5
@@ -132,7 +132,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://architect-serverless-cfn-deployments-098ee/0a0f10ce4b9535c9ca03f96fbf150b20
+      CodeUri: s3://architect-serverless-cfn-deployments-098ee/fd3dcb1b1027bfebf17031ac98f9c70a
       Runtime: nodejs12.x
       MemorySize: 1152
       Timeout: 5
@@ -166,7 +166,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://architect-serverless-cfn-deployments-098ee/5759ecd5de0184c16a008f1375ad596d
+      CodeUri: s3://architect-serverless-cfn-deployments-098ee/34b64111246a9cd5a788bc7ebc5ef614
       Runtime: nodejs12.x
       MemorySize: 1152
       Timeout: 5
