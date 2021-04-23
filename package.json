@@ -16,7 +16,8 @@
   },
   "scripts": {
     "dev": "arc sandbox",
-    "deploy": "arc deploy",
+    "deploy:staging": "arc deploy",
+    "deploy:production": "arc deploy production",
     "package": "arc package",
     "env": "arc env",
     "destroy": "arc destroy",

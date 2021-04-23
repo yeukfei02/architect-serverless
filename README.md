@@ -14,8 +14,11 @@ architect-serverless
 // test api in local
 $ yarn run dev
 
-// deploy to aws
-$ yarn run deploy
+// deploy to aws (staging)
+$ yarn run deploy:staging
+
+// deploy to aws (production)
+$ yarn run deploy:production
 
 // export sam.json
 $ yarn run package
