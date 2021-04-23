@@ -1,5 +1,5 @@
 @app
-architect-serverless-ruby
+architect-serverless
 
 @http
 get /

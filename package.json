@@ -1,7 +1,7 @@
 {
-  "name": "architect-serverless-node",
+  "name": "architect-serverless",
   "version": "0.1.0",
-  "description": "architect-serverless-node",
+  "description": "architect-serverless",
   "license": "MIT",
   "dependencies": {
     "@architect/functions": "^3.13.11",
