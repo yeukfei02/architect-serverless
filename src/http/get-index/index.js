@@ -7,7 +7,7 @@ exports.handler = async function http(req) {
       "content-type": "application/json",
     },
     body: JSON.stringify({
-      message: "main",
+      message: "architect-serverless",
     }),
   };
   return response;
