@@ -1,10 +1,13 @@
 {
-  "name": "architect-serverless-node",
+  "name": "architect-serverless",
   "version": "0.1.0",
-  "description": "architect-serverless-node",
+  "description": "architect-serverless",
   "license": "MIT",
   "dependencies": {
-    "@architect/functions": "^3.13.11"
+    "@architect/functions": "^3.13.11",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@architect/architect": "^8.5.5",
