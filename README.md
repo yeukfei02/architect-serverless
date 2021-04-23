@@ -2,6 +2,10 @@
 
 architect-serverless
 
+api url (staging) <https://gpmns9v8mi.execute-api.ap-southeast-1.amazonaws.com>
+
+api url (production) <https://8oeryyun6f.execute-api.ap-southeast-1.amazonaws.com>
+
 ## Requirement
 
 - install yarn
